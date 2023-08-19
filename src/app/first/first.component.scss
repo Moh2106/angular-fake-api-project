@@ -1,0 +1,40 @@
+.form {
+  width: 50%;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  background: #bc6c25;
+  border-radius: 0.5em;
+  color: #fff;
+  padding: 1em;
+
+  div {
+    width: 90%;
+    margin: auto;
+  }
+
+  button {
+    background: #08a045;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: none;
+  }
+
+  input,
+  textarea {
+    width: 70%;
+    border: 1px solid #08a045;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    outline: none;
+  }
+
+  &__second {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
